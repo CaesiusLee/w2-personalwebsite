@@ -105,7 +105,7 @@ p{
 	color: #FFFFFF;
 }
 
-.header li{
+.header li a{
 	color:#D1D1D1;
 }
 
@@ -147,7 +147,7 @@ p{
 	padding: 72px;
 }
 
-.name div, .about1{
+.name div , .about1{
 	width: 636px;
 }
 
@@ -221,11 +221,13 @@ p{
 
 .about1 ul{
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .about1 li{
 	border: 1px solid #E3E3E3;
 	padding: 16px;
+	margin-bottom: 24px;
 }
 
 .about2 {
